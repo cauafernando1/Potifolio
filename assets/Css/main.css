@@ -1,0 +1,104 @@
+main section .container-1{
+    width: 380px;
+
+}
+main section div h1{
+    font-size: 65px;
+    color: aqua;
+}
+main section div h2{
+    font-size: 30px;
+    color: aquamarine;
+}
+main section div p{
+    font-size: 25px;
+    color: aliceblue;
+}
+#tec{
+    margin-left:20px ;
+}
+#tec-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardes-tec{
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.cardes-tec:hover, .Projetos:hover{
+    background: azure;
+    cursor: pointer;
+}
+.tecnologias{
+    width: 60px;
+}
+.div-cont{
+    width: 770px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contatos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contato{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 370px;
+    height: 70px;
+    margin: 10px 30px 10px 0;
+    border: solid 2px rgba(68, 68, 68, 0.3);
+    box-shadow: 10px 10px 10px rgba(68, 68, 68, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato:hover{
+    background-color: rgba(0, 0, 0, 0.01);
+    cursor: pointer;
+}
+.cont-nome{
+    color: rgb(0, 0, 99);
+}
+.color-cont{
+    color: aqua;
+}
+.email{
+    font-size: 17px;
+    color: aqua;
+}
+.projets{
+    width: 1150px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Projetos{
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+}
+.img-projets{
+    width: 100px;
+    margin: 0 20px 0 0 ;
+}
+.titulo-projets{
+    color: black;
+    font-size: 20px;
+}
+.descric-projets{
+    color: black;
+    font-size: 14px;
+}

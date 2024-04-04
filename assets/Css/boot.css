@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+  }
+body{
+    width: 100%;
+    background-image: linear-gradient(black, gray);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    width: 1150px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,65 @@
+@media (max-width: 1150px) {
+    .container, .projets{
+      width: 1024px;
+    }
+}
+  
+@media (max-width: 1024px) {
+    .container, .projets {
+      width: 915px;
+    }
+    .cardes-tec{
+      padding: 20px;
+      margin: 20px;
+    }
+    .tecnologias{
+      width: 50px;
+    }
+}
+  
+@media (max-width: 915px) {
+    .container, .projets{
+        width: 665px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cardes-tec{
+      padding: 15px;
+      margin: 15px;
+    }
+    .tecnologias{
+      width: 45px;
+    }
+    .div-cont{
+      width: 430px;
+    }
+    .contatos{
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+@media (max-width: 665px) {
+    .container, .projets{
+      width: 475px;
+    }
+}
+  
+@media (max-width: 450px) {
+    .container,  .div-cont{
+      width: 420px;
+    }
+    .cardes-tec{
+      padding: 10px;
+      margin: 10px;
+    }
+    .tecnologias{
+      width: 40px;
+    }
+    .projets{
+      width: 370px;
+    }
+    .container{
+      margin: 10px 0;
+    }
+  }
