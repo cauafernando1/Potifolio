@@ -4,15 +4,15 @@ main section .container-1{
 }
 main section div h1{
     font-size: 65px;
-    color: aqua;
+    color: #00ffff;
 }
 main section div h2{
     font-size: 30px;
-    color: aquamarine;
+    color: #7fffd4;
 }
 main section div p{
     font-size: 25px;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 #tec{
     margin-left:20px ;
@@ -23,13 +23,13 @@ main section div p{
     flex-wrap: wrap;
 }
 .cardes-tec{
-    background: white;
+    background: #ffffff;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
 }
-.cardes-tec:hover, .Projetos:hover{
-    background: azure;
+.cardes-tec:hover{
+    background: #f0ffff;
     cursor: pointer;
 }
 .tecnologias{
@@ -48,12 +48,12 @@ main section div p{
     align-items: center;
 }
 .contato{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #ffffff4d;
     width: 370px;
     height: 70px;
     margin: 10px 30px 10px 0;
-    border: solid 2px rgba(68, 68, 68, 0.3);
-    box-shadow: 10px 10px 10px rgba(68, 68, 68, 0.5);
+    border: solid 2px #4444444d;
+    box-shadow: 10px 10px 10px #44444480;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -67,38 +67,84 @@ main section div p{
     color: rgb(0, 0, 99);
 }
 .color-cont{
-    color: aqua;
+    color: #00ffff;
 }
 .email{
     font-size: 17px;
-    color: aqua;
+    color: #00ffff;
 }
 .projets{
     width: 1150px;
     margin: 10px auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.Projetos{
-    background: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    display: flex;
     flex-direction: row;
     align-items: center;
-    width: 400px;
+    justify-content: center;
+    
 }
-.img-projets{
-    width: 100px;
-    margin: 0 20px 0 0 ;
+.Projetos{
+    width: 390px;
+}
+.tela-login{
+    cursor: pointer;
+    width: 370px;
+    height: 370px;
+    border: solid 4px rgb(56, 56, 56);
+}
+.img-projet{
+    width: 370px;
+    height: 370px;
 }
 .titulo-projets{
-    color: black;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000080;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.fundo.abrir-jane{
+    display: flex;
 }
 .descric-projets{
-    color: black;
-    font-size: 14px;
+    background: #222222;
+    width: 310px;
+    padding: 30px;
+    height: 310px;
+    border-radius: 10px ;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.button-proje{
+    background: #008000;
+    cursor: pointer;
+    color: #fff;
+    width: 150px;
+    border-radius: 5px;
+}
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
 }
