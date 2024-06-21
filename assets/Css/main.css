@@ -85,11 +85,10 @@ main section div p{
 .Projetos{
     width: 390px;
 }
-.tela-login{
+.tela-login, .calc-juros{
     cursor: pointer;
     width: 370px;
     height: 370px;
-    border: solid 4px rgb(56, 56, 56);
 }
 .img-projet{
     width: 370px;
