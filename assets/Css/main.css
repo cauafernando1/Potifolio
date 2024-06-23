@@ -11,7 +11,7 @@ main section div h2{
     color: #7fffd4;
 }
 main section div p{
-    font-size: 25px;
+    font-size: 20px;
     color: #f0f8ff;
 }
 #tec{
@@ -68,6 +68,7 @@ main section div p{
 }
 .color-cont{
     color: #00ffff;
+    font-size: 25px;
 }
 .email{
     font-size: 17px;
@@ -75,22 +76,25 @@ main section div p{
 }
 .projets{
     width: 1150px;
-    margin: 10px auto;
+    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+    gap: 10px;
 }
 .Projetos{
-    width: 390px;
-}
-.tela-login, .calc-juros{
-    cursor: pointer;
-    width: 370px;
-    height: 370px;
+    width: 400px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.09);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .img-projet{
+    cursor: pointer;
     width: 370px;
     height: 370px;
 }
@@ -114,7 +118,7 @@ main section div p{
     display: flex;
 }
 .descric-projets{
-    background: #222222;
+    background: #212121e6;
     width: 310px;
     padding: 30px;
     height: 310px;
