@@ -14,15 +14,19 @@ body{
     background-image: linear-gradient(rgb(31, 31, 31), gray);
     background-repeat: no-repeat;
     background-size: 100%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 .container{
     width: 1150px;
-    margin: 10px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 .row{
     display: flex;

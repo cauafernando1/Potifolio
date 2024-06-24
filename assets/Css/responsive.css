@@ -19,7 +19,7 @@
   
 @media (max-width: 915px) {
     .container, .projets{
-        width: 665px;
+        width: 695px;
         display: flex;
         flex-direction: column;
     }
@@ -39,13 +39,13 @@
     }
 }
 
-@media (max-width: 665px) {
+@media (max-width: 695px) {
     .container, .projets{
-      width: 475px;
+      width: 480px;
     }
 }
   
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     .container,  .div-cont{
       width: 420px;
     }
@@ -59,7 +59,14 @@
     .projets{
       width: 370px;
     }
+    .img-projet{
+      width: 352px;
+      height: 352px;
+    }
     .container{
       margin: 10px 0;
+    }
+    footer{
+      width: 370px;
     }
   }
