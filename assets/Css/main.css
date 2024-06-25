@@ -1,5 +1,5 @@
 main section .container-1{
-    width: 380px;
+    width: 395px;
 
 }
 main section div h1{
@@ -14,14 +14,13 @@ main section div p{
     font-size: 20px;
     color: #f0f8ff;
 }
-#tec{
-    margin-left:20px ;
-}
 #tec-list{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+
 }
 .cardes-tec{
     background: #ffffff;
@@ -38,23 +37,25 @@ main section div p{
     height: 60px;
 }
 .div-cont{
-    width: 770px;
-    margin: 10px auto;
+    width: 915px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .contatos{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 .contato{
     background-color: #ffffff4d;
     width: 370px;
     height: 70px;
-    margin: 10px 30px 10px 0;
-    border: solid 2px #4444444d;
+    margin-top: 30px;
+    margin-bottom: 30px;
     box-shadow: 10px 10px 10px #44444480;
     border-radius: 10px;
     display: flex;

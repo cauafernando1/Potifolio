@@ -14,6 +14,7 @@
     }
     .tecnologias{
       width: 50px;
+      height: 50px;
     }
 }
   
@@ -29,19 +30,34 @@
     }
     .tecnologias{
       width: 45px;
+      height: 45px;
     }
     .div-cont{
-      width: 430px;
+      width: 695px;
     }
     .contatos{
       display: flex;
       flex-direction: column;
+      gap: 0;
     }
+    .row{
+      width: 525px;
+    } 
 }
 
 @media (max-width: 695px) {
     .container, .projets{
       width: 480px;
+    }
+    .div-cont{
+      width: 480px;
+    }
+    .contatos{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .row{
+      width: 375px;
     }
 }
   
@@ -55,16 +71,23 @@
     }
     .tecnologias{
       width: 40px;
+      height: 40px;
+    }
+    .div-cont{
+      width: 430px;
     }
     .projets{
-      width: 370px;
+      width: 380px;
+    }
+    .Projetos{
+      width: 380px;
     }
     .img-projet{
-      width: 352px;
-      height: 352px;
+      width: 350px;
+      height: 350px;
     }
     .container{
-      margin: 10px 0;
+      margin: 0;
     }
     footer{
       width: 370px;
