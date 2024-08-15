@@ -1,11 +1,11 @@
 @media (max-width: 1150px) {
-    .container, .projets{
+    .container, .projects{
       width: 1024px;
     }
 }
   
 @media (max-width: 1024px) {
-    .container, .projets {
+    .container, .projects {
       width: 915px;
     }
     .cardes-tec{
@@ -19,7 +19,7 @@
 }
   
 @media (max-width: 915px) {
-    .container, .projets{
+    .container, .projects{
         width: 695px;
         display: flex;
         flex-direction: column;
@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 695px) {
-    .container, .projets{
+    .container, .projects{
       width: 480px;
     }
     .div-cont{
@@ -76,13 +76,13 @@
     .div-cont{
       width: 430px;
     }
-    .projets{
+    .projects{
       width: 380px;
     }
-    .Projetos{
+    .projetos{
       width: 380px;
     }
-    .img-projet{
+    .img-project{
       width: 350px;
       height: 350px;
     }
